@@ -1,0 +1,21 @@
+require("lazy").setup({
+	spec = {
+		{ import = "plugins.telescope" },
+		{ import = "plugins.lualine" },
+		{ import = "plugins.treesitter" },
+		{ import = "plugins.pywal" },
+		{ import = "plugins.neotree" },
+		{ import = "plugins.lsp-config" },
+		{ import = "plugins.none-ls" },
+		{ import = "plugins.screen" },
+		{ import = "plugins.completions" },
+		{ import = "plugins.tmux-nav" },
+		{ import = "plugins.git-signs" },
+		-- { import = "plugins.onedark" },
+		{ import = "plugins.suda" },
+		{ import = "plugins.miscellaneous" },
+		{ import = "plugins.file-buffer" },
+	},
+	install = { colorscheme = { "habamax" } },
+	checker = { enabled = true },
+})
