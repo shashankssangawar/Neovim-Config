@@ -15,6 +15,7 @@ require("lazy").setup({
 		{ import = "plugins.suda" },
 		{ import = "plugins.miscellaneous" },
 		{ import = "plugins.file-buffer" },
+		{ import = "plugins.indent-blankline" },
 	},
 	install = { colorscheme = { "habamax" } },
 	checker = { enabled = true },
